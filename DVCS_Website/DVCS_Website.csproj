@@ -153,6 +153,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="WebpageFour.aspx" />
+    <Content Include="WebpageFive.aspx" />
+    <Content Include="WebpageThree.aspx" />
     <Content Include="WebpageTwo.aspx" />
     <Content Include="WebpageOne.aspx" />
     <Content Include="About.aspx" />
@@ -226,6 +229,27 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="WebpageFour.aspx.cs">
+      <DependentUpon>WebpageFour.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebpageFour.aspx.designer.cs">
+      <DependentUpon>WebpageFour.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebpageFive.aspx.cs">
+      <DependentUpon>WebpageFive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebpageFive.aspx.designer.cs">
+      <DependentUpon>WebpageFive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebpageThree.aspx.cs">
+      <DependentUpon>WebpageThree.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebpageThree.aspx.designer.cs">
+      <DependentUpon>WebpageThree.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebpageTwo.aspx.cs">
       <DependentUpon>WebpageTwo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
