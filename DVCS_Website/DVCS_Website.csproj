@@ -153,6 +153,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="WebpageTwo.aspx" />
+    <Content Include="WebpageOne.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Account\AddPhoneNumber.aspx" />
     <Content Include="Account\Confirm.aspx" />
@@ -224,6 +226,20 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="WebpageTwo.aspx.cs">
+      <DependentUpon>WebpageTwo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebpageTwo.aspx.designer.cs">
+      <DependentUpon>WebpageTwo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebpageOne.aspx.cs">
+      <DependentUpon>WebpageOne.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebpageOne.aspx.designer.cs">
+      <DependentUpon>WebpageOne.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Account\AddPhoneNumber.aspx.cs">
       <DependentUpon>AddPhoneNumber.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
